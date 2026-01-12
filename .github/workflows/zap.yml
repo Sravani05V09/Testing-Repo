@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 permissions: 
   contents: read
-
+  issues: write
 jobs: 
   zap: 
     runs-on: ubuntu-latest 
